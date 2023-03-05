@@ -1,0 +1,9 @@
+ls -al ~/.ssh   listado de llaves
+ssh-keygen -t rsa -b 4096 -C "hector84barrios@gmail.com"   para crear  una llave de conexion a github
+git add nombre.txt agregar archivos con nombre a Git
+git add . agregar archivos son nombre de archivos
+git commit -m "Primer commit"
+git status para ver archivos agregados
+git remote add origin https://github.com/Kronymous/udapython.git   Para hacer una conexion remota con Github
+git push origin master para subir todos los archivos de la rama master a Github
+git remote -v para ver las conexiones de origin de Github
